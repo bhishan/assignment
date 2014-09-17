@@ -15,9 +15,9 @@ class MyApp(App):
         br.select_form(nr = 0) #accessing form by their index. Since we have only one form in this example, nr =0.
 #br.select_form(name = "form name") Alternatively you may use this instead of the above line if your form has name attribute available.
 
-        br["username"] = "bhishan_0306" #the key "username" is the variable that takes the username/email value 
+        br["username"] = "username" #the key "username" is the variable that takes the username/email value 
 
-        br["password"] = "Lenovo!1"    #the key "password" is the variable that takes the password value
+        br["password"] = "password"    #the key "password" is the variable that takes the password value
 
         logged_in = br.submit()   #submitting the login credentials
         logincheck = logged_in.read()
