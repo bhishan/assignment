@@ -32,7 +32,7 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 1.2.0
 
 # (list) Application requirements
-requirements = kivy, mechanize, bs4
+requirements = kivy, mechanize, beautifulsoup4
 
 # (list) Garden requirements
 #garden_requirements =
